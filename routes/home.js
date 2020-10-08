@@ -14,6 +14,10 @@ router.get('/about', (req,res)=>{
     res.render("About.ejs")
 })
 
+router.get('/gallery', (req,res)=>{
+    res.render("Gallery.ejs")
+})
+
 
 
 module.exports = router
